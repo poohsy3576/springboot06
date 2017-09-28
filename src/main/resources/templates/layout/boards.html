@@ -1,0 +1,39 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+<meta charset="utf-8">
+<title></title>
+<!--/*/ 
+<link rel="stylesheet" href="/webjars/bootstrap/3.3.7/css/bootstrap.css">
+<link rel="stylesheet" href="/webjars/bootstrap/3.3.7/css/bootstrap-theme.css">
+<link rel="stylesheet" href="/webjars/animate.css/3.5.2/animate.css">
+
+<script type="text/javascript" src="/webjars/jquery/1.11.1/jquery.js"></script>
+<script type="text/javascript" src="/webjars/bootstrap/3.3.7/js/bootstrap.js"></script>
+<script type="text/javascript" src="/webjars/chartjs/2.6.0/Chart.bundle.js"></script>
+/*/-->
+
+<link rel="stylesheet" href="../thymeleaf/css/bootstrap.css" th:remove="all">
+<link rel="stylesheet" href="../thymeleaf/css/animate.css" th:remove="all">
+</head>
+<body class="container">
+
+	<div class="page-header animated fadeInRight">
+		<h1>
+			Boot06 Project <small>for Spring MVC + JPA</small>
+		</h1>
+	</div>
+
+	<div class="panel panel-default" layout:fragment="content">
+		<div class="panel-body">Web Board List Page</div>
+	</div>
+
+	<!-- custom javascript  -->
+	<th:block layout:fragment="script">	<!-- 오버라이트개념 -->
+	
+	</th:block>
+
+</body>
+</html>
