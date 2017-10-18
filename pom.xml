@@ -129,6 +129,57 @@
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<!-- Hive -->
+		<dependency>
+			<groupId>org.apache.hive</groupId>
+			<artifactId>hive-jdbc</artifactId>
+			<version>2.3.0</version>
+			<scope>system</scope>
+			<systemPath>/home/java/.m2/repository/org/apache/hive/hive-jdbc/2.3.0/hive-jdbc-2.3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hive</groupId>
+			<artifactId>hive-common</artifactId>
+			<version>2.3.0</version>
+			<scope>system</scope>
+			<systemPath>/home/java/.m2/repository/org/apache/hive/hive-common/2.3.0/hive-common-2.3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hive</groupId>
+			<artifactId>hive-serde</artifactId>
+			<version>2.3.0</version>
+			<scope>system</scope>
+			<systemPath>/home/java/.m2/repository/org/apache/hive/hive-serde/2.3.0/hive-serde-2.3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hive</groupId>
+			<artifactId>hive-service</artifactId>
+			<version>2.3.0</version>
+			<scope>system</scope>
+			<systemPath>/home/java/.m2/repository/org/apache/hive/hive-service/2.3.0/hive-service-2.3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hive</groupId>
+			<artifactId>hive-service-rpc</artifactId>
+			<version>2.3.0</version>
+			<scope>system</scope>
+			<systemPath>/home/java/.m2/repository/org/apache/hive/hive-service-rpc/2.3.0/hive-service-rpc-2.3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.thrift</groupId>
+			<artifactId>libthrift</artifactId>
+			<version>0.9.3</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
 	</dependencies>
 
 	<build>
